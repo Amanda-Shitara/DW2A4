@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Brasil COVID-19</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="header">
+                <h2>Brasil – Pesquisa COVID-19</h2>
+            </div>
+            
+            <form action="" class="form" id="form">
+                <label for="cep">Digite o CEP</label>
+                <input name="cep" placeholder="00000-000">
+
+                <button id="search">Confirmar</button>
+            </form>
+
+            <div class="results">
+                <div class="card state">
+                    <h2 id="state"></h2>
+                </div>
+                
+                <div class="card">
+                    <h3>Casos suspeitos</h3>
+                    <p id="suspects"></p>
+                </div>
+                
+                <div class="card">
+                    <h3>Casos confirmados</h3>
+                    <p id="cases"></p>
+                </div>
+                
+                <div class="card">
+                    <h3>Óbitos</h3>
+                    <p id="deaths"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>
